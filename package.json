@@ -2,7 +2,7 @@
   "name": "mass_pay",
   "version": "1.0.0",
   "description": "",
-  "homepage":"./",
+  "homepage":"./public/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
