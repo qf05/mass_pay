@@ -5,10 +5,12 @@
   "homepage": "./",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=10888 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm start build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"    
   },
   "keywords": [],
   "author": "",
