@@ -2,7 +2,7 @@
   "name": "mass_pay",
   "version": "1.0.0",
   "description": "",
-  "homepage":"./public/",
+  "homepage": "./",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
@@ -25,6 +25,7 @@
     "babel-eslint": "^9.0.0",
     "core-js": "^2.6.5",
     "fs": "0.0.1-security",
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
