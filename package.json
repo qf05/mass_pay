@@ -2,7 +2,7 @@
   "name": "mass_pay",
   "version": "1.0.0",
   "description": "",
-  "homepage": "./",
+  "homepage": "https://qf05.github.io/mass_pay/",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -10,31 +10,26 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"    
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "gh-pages": "^2.1.1",
-    "react-hot-loader": "^4.7.1",
-    "react-scripts": "^2.1.5"
+    "gh-pages": "^1.2.0",
+    "react-scripts": "1.0.7"
   },
   "dependencies": {
-    "@vkontakte/icons": "^1.8.1",
-    "@vkontakte/vkui": "^2.23.6",
+    "@vkontakte/icons": "^1.8.2",
+    "@vkontakte/vkui": "^2.24.1",
     "@vkontakte/vkui-connect": "^1.5.4",
+    "@vkontakte/vkui-connect-promise": "^0.2.0-beta.7",
     "babel-eslint": "^9.0.0",
     "core-js": "^2.6.5",
     "fs": "0.0.1-security",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.7"
   },
   "browserslist": [
     ">0.2%",

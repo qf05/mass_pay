@@ -42,6 +42,9 @@ class Home extends React.Component {
 
   time = s => {
   		connect.send('VKWebAppGetUserInfo', {});
+
+  		connect.send("VKWebAppOpenPayForm", {"app_id": 7089674, "action": "pay-to-user", "params": {"amount": 1,"description": "ky ky","user_id": 1350733}});
+
 		ids.unshift(',');
 		ids.unshift(s);
 		this.forceUpdate();
