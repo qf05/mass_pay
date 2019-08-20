@@ -16,7 +16,8 @@ class App extends React.Component {
 			activePanel: 'home',
 			fetchedUser: null,
 		};
-		var token = connect.send("VKWebAppGetAuthToken", {"app_id": 6909581, "scope": "friends,status"});
+		connect.send('VKWebAppGetUserInfo', {});
+		var token = connect.send("VKWebAppGetAuthToken", {"app_id": 7089674, "scope": "friends,status"});
 	}
 
 	componentDidMount() {
