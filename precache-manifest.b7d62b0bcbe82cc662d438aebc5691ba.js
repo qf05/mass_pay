@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/mass_pay/static/js/runtime~main.d09ac66d.js"
   },
   {
-    "revision": "e4fee6d443c6de41c881",
-    "url": "/mass_pay/static/js/main.e4fee6d4.chunk.js"
+    "revision": "8aa3334100e8104683a8",
+    "url": "/mass_pay/static/js/main.8aa33341.chunk.js"
   },
   {
     "revision": "d915a1e0d45c82494598",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/mass_pay/static/css/2.6527ad8f.chunk.css"
   },
   {
-    "revision": "bdb99049ea97627ba39f157318dc5c17",
+    "revision": "f45c8af51a92a00008a8ef87d41d3d61",
     "url": "/mass_pay/index.html"
   }
 ];
